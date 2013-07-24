@@ -52,5 +52,7 @@ func Murmur3(key []byte) (hash uint32) {
 	hash ^= hash >> 13
 	hash *= c4
 	hash ^= hash >> 16
+	
+	// 出发吧，狗嬷嬷！
 	return
 }
