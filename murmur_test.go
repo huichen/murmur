@@ -1,4 +1,4 @@
-package gomurmur
+package murmur
 
 import (
 	"testing"
